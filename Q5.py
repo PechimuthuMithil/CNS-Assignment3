@@ -2,8 +2,8 @@ import requests
 
 url = 'http://mercury.picoctf.net:1270'
 
-params = { 'User-Agent' : 'PicoBrowser', 'Referer':'mercury.picoctf.net:1270 ','Date':'2018'
-          ,'DNT':'1','X-Forwarded-For': '92.34.186.83', 'Accept-Language':'sv-SWE'}
+params = { 'User-Agent' : 'PicoBrowser', 'Referer':'mercury.picoctf.net:1270 ','Date':'Tue, 15 Nov 2018 08:12:31 GMT'
+          ,'DNT':'1','X-Forwarded-For': '31.3.152.55', 'Accept-Language':'sv'}
 
 r = requests.get(url, headers=params)
 
